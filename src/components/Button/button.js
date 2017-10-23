@@ -1,9 +1,12 @@
 import React from 'react'
+import styles from './style'
+
+console.log(styles)
 
 class Button extends React.Component {
     render() {
         return (
-            <div>这是一个按钮</div>
+            <div className={styles.button}>这是一个按钮</div>
         )
     }
 }
