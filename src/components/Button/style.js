@@ -22,6 +22,16 @@ const button = css({
   }
 })
 
+const primary = css({
+  color: 'white'
+})
+
+const dangerous = css({
+
+})
+
 export default {
-  button
+  button,
+  primary,
+  dangerous
 }
